@@ -3,11 +3,14 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: 
+	1. Find a pair keys whose value (noted as "VAL") with length of '2' that are equal, for each unit. If you find more than 3 keys whose values are equal and values' lengths are 2, it will return FALSE as it is impossible to resolve the puzzle
+	2. Elimite the VAL in all other peer's values.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: 
+	Simply add two diagonal units to the unitlist as addtional "constraints". Then the constraints will be fulfilled automatically.
 
 ### Install
 
